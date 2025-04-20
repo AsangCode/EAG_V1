@@ -1,0 +1,61 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+agent_memory.json
+*.log
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+*.db
+*.sqlite3
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/_build/
+site/
+
+# Dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/ 
