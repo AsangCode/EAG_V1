@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic Web Search</title>
+    <style>
+        body {
+            width: 400px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .search-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        #searchInput {
+            flex-grow: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        #searchButton {
+            padding: 8px 16px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        #searchButton:hover {
+            background-color: #357abd;
+        }
+        
+        .results {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .result-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+        
+        .result-item:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .confidence {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .url {
+            color: #1a0dab;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter your search query...">
+        <button id="searchButton">Search</button>
+    </div>
+    
+    <div class="results" id="searchResults"></div>
+    
+    <script src="popup.js"></script>
+</body>
+</html> 

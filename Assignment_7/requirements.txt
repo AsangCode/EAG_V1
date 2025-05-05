@@ -1,0 +1,10 @@
+faiss-cpu==1.7.4
+google-generativeai==0.3.2
+flask==3.0.2
+flask-cors==4.0.0
+beautifulsoup4==4.12.3
+requests==2.31.0
+numpy==1.26.4
+python-dotenv==1.0.1
+validators==0.22.0
+pillow==10.2.0 
