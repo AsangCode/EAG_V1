@@ -1,0 +1,8 @@
+google-auth-oauthlib>=0.4.6
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+python-telegram-bot>=20.0
+pandas>=2.0.0
+aiohttp>=3.8.0
+beautifulsoup4>=4.9.3
+httpx>=0.24.0 
